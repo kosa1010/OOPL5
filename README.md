@@ -14,13 +14,13 @@ Dla wszystkich zadań z poprzedniego konspektu [Lab4](https://github.com/UR-OOP/
 Zaprojektuj i utwórz klasę, która opisuje pozycję książkową (`Book`) w księgarni. Książki cechują się następującymi właściwościami: `title`, `author`, `pages`, `year`, `price`. Zastosuj enkapsulację pól w klasie, przy czym uwzględnij, że tylko `price` książki może się zmieniać w czasie, a pozostałe atrybuty są niezmienne (tylko do odczytu). Utwórz przykładowe obiekty i pokaż w jaki sposób można dostać się do pól obiektu poprzez metody `get`, `set`.
 
 ## Zadanie 3
-Zaprojektuj klasę symulującą działanie struktury stosu `Stack`. Należy zastosować dziedziczenie z dostarczonej klasy abstrakcyjnej `AbstractStack` oraz zaimplementować metody z tej klasy. W ramach klasy powinny występować następujące prywatne pola: `n-elementowa tablica liczb całkowitych reprezentująca stos`, wskaźnik stosu `pointer` jako liczba całkowita. `pointer` wskazuje element ze szczytu stosu. 
+Zaprojektuj klasę symulującą działanie struktury stosu `Stack`. Należy zastosować dziedziczenie z dostarczonej klasy abstrakcyjnej `AbstractStack` oraz zaimplementować metody z tej klasy. W ramach klasy powinny występować następujące prywatne pola: `n-elementowa tablica liczb całkowitych reprezentująca stos`,zmieną przechowującą aktualny rozmiar stosu(liczbę elementów wstawionych do tablicy) jako liczba całkowita, wskaźnik stosu `index` jako liczba całkowita. `index` wskazuje element ze szczytu stosu. 
 
 * Zaimplementuj metody: umieszczającą element na szczycie stosu `push(int i)` oraz  ściągającą wartość ze szczytu stosu `pop()`. 
 
 * Zaimplementuj metodę `isEmpty()` zwracającą informację (`boolean`) o tym, czy stos jest pusty.
 
-* Zadbaj o to aby w razie przepełnienia stosu nie można było umieścić wartości na stosie, a w razie stosu pustego nie można było ściągnąć danej ze stosu. Zauważ, że instrukcje `push(int i)` i `pop()` zachowują się jak `get()` i `set(int i)`. 
+* Zadbaj o to aby w razie przepełnienia stosu nie można było umieścić wartości na stosie (w takim przypadku metoda powinna rzucać wyjątek `StackOverflowError` z pakietu `java.lang`), a w razie stosu pustego nie można było ściągnąć danej ze stosu (w takim przypadku metoda powinna rzucać wyjątek `EmptyStackException` z pakietu `java.util`). Zauważ, że instrukcje `push(int i)` i `pop()` zachowują się jak `get()` i `set(int i)`. 
 
 * Utwórz konstruktor, którego argumentem jest rozmiar stosu. W ciele konstruktora dokonaj inicjalizacji n-elementowej tablicy reprezentującej stos. Pamiętaj, że instrukcja `push(int i)` i `pop()` zmieniają odpowiednio wskaźnik stosu.
 
