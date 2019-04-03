@@ -48,10 +48,10 @@ Następnie zdefiniuj klasę `Company`, która by przechowywała w tablicy spis w
 * Zastanów się, jak przy ostatnim zadaniu rozdzielić odpowiedzialności pomiędzy obie klasy.
 
 ## Zadanie 6
-Zdefiniuj klasę `Number`, która przechowuje w polu liczbę dziesiędną. Zdefiniuj operacje wypisywania liczby, nadawania jej wartości (w postaci parametru konstruktora będącego napisem oraz metody `set`) oraz mnożenia `multiply(int i)` przez liczbę typu `int`. Zdefiniuj metodę `factorial()`, która policzy silnię zadanej jako parametr (konstruktora/metody `set`) liczby. 
+Zdefiniuj klasę `Number`, która przechowuje w polu liczbę całkowitą. Zdefiniuj operacje wypisywania liczby, nadawania jej wartości (w postaci parametru konstruktora będącego napisem oraz metody `set`) oraz mnożenia `multiply(int i)` przez liczbę typu `int`. Zdefiniuj metodę `factorial()`, która policzy silnię zadanej jako parametr (konstruktora/metody `set`) liczby. 
 
-* metoda `multiply(int i)` ZWRACA wynik działania nie przypisowywując go do pola w klasie `Number`.
-* metoda `factorial()` ZWRACA wynik działania nie przypisowywując go do pola w klasie `Number`.
+* metoda `multiply(int i)` ZWRACA wynik działania bez przypisania go do pola w klasie `Number`.
+* metoda `factorial()` ZWRACA wynik działania be przypisania go do pola w klasie `Number`.
 * metoda `setNumber(String number)` przypisuje wartość łańcucha znakowego do pola w klasie `Number` w postaci liczby.
 
 ##### W oparciu o opracowanie dr inż. Wojciech Kozła
