@@ -12,16 +12,18 @@ public class Company extends AbstractCompany {
         super(n);
     }
 
+    @Override
     public void addEmployee(Employee e) {
-
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    @Override
     public Employee[] getEmployees() {
-        return new Employee[0];
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    @Override
     public void printEmployees() {
-
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
 }

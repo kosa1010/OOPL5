@@ -1,45 +1,48 @@
 package pl.edu.ur.oopl5.companyAndEmployees.employee;
 
-
 import pl.edu.ur.oopl5.companyAndEmployees.company.abstractClasses.AbstractPerson;
 
 /**
  */
 public class Employee extends AbstractPerson implements EmployeeInterface {
 
-    public Employee(String name, String surname, int age, String position) {
-        super(name, surname, age);
+    @Override
+    public String getName() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setName(String name) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String getSurname() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setSurname(String surname) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public int getAge() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setAge(int age) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getPosition() {
-        return null;
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public void setPosition() {
-
+    public void setPosition(String position) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public String getName() {
-        return null;
-    }
 
-    public void setName(String name) {
-
-    }
-
-    public String getSurname() {
-        return null;
-    }
-
-    public void setSurname(String surname) {
-
-    }
-
-    public int getAge() {
-        return 0;
-    }
-
-    public void setAge(int age) {
-
-    }
 }
