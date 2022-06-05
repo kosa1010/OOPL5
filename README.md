@@ -54,4 +54,4 @@ Zdefiniuj klasę `Number`, która przechowuje w polu liczbę całkowitą. Zdefin
 * metoda `factorial()` ZWRACA wynik działania bez przypisania go do pola w klasie `Number`.
 * metoda `setNumber(String number)` przypisuje wartość łańcucha znakowego do pola w klasie `Number` w postaci liczby.
 
-##### W oparciu o opracowanie dr inż. Wojciech Kozła
+##### W oparciu o opracowanie dr inż. Wojciech Kozioła
